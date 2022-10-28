@@ -59,7 +59,7 @@ class Main extends Sprite
 		[['Bopeebo', 'Fresh', 'Dadbattle'],
 			['dad', 'dad', 'dad'],
 			[FlxColor.fromRGB(129, 100, 223)],
-			'vs. DADDY DEAREST'
+			'Bk the Raccoon'
 		],
 	];
 
