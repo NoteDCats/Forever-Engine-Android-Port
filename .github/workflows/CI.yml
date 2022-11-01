@@ -121,11 +121,3 @@ jobs:
         with:
           name: macBuild
           path: export/release/macos/bin
-
-      - name: Compile
-        run: haxelib run lime build windows -release
-      - name: Publish Artifact
-        uses: actions/upload-artifact@v2.2.4
-        with:
-          name: AndroidBuild
-          path: export/release/android/bin/app/build/apk/debug
