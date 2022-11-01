@@ -42,7 +42,7 @@ jobs:
           haxelib --quiet --never run lime setup
           haxelib --quiet install flixel-ui
           haxelib --quiet install flixel-addons
-        haxelib git polymod https://github.com/larsiusprime/polymod.git
+          haxelib git polymod https://github.com/larsiusprime/polymod.git
           haxelib --quiet install hscript
           haxelib --quiet install hxcpp-debug-server
           haxelib --quiet git flxanimate https://github.com/Dot-Stuff/flxanimate.git
